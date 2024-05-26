@@ -47,19 +47,12 @@ nav .icons {float: right; padding-left: 5px;}
 nav .icons i{margin-right: 5px; padding-right: 10px; font-size: 23px;}
 
 
-.banner{background: url(img/banner.png) no-repeat  center/cover;}
+.banner{background: url(../img/banner.png) no-repeat  center/cover;}
 .banner .btn{background: var(--bl); color: #fff; padding: 10px; width: 165px;height: 40px; border-radius: 20px;  margin-bottom: 190px; border: none; font-size: 18px;}
 .banner p{margin-bottom: 20px;}
 .text{text-align: center; margin-top: 130px;}
 .banner h2{margin-bottom: 20px; font-size: 40px; }
 .banner #hide{display: none;}
-/* .card{position: relative;}
-.abs{position:absolute; bottom: 55px; left: 25px; }
-.abs h2{font-size: 20px; margin-bottom: 0;}
-.abs img{width: 20px; height: 20px;}
- */
-
-
 .wrap-1 .gd{ text-align: center; transition: all .3s ease-in-out;  }
 .wrap-1 i{font-size: 20px; margin-top: 75px; width: 75px; height: 75px; border-radius: 50%; background: #fff; color: black; place-items: center; padding: 27px  27px ; margin-bottom: 15px;}
 .wrap-1{background: var(--bl); color: #fff;}
@@ -82,7 +75,7 @@ margin-bottom: 40px;line-height: 25px;}
 .pro p{font-size: 16px;  margin-left: 20px; line-height: 30px;}
 
 
-.wrap-3{background: url(img/wrap-3\ bg\ copy.webp) no-repeat center/cover; color: #fff;}
+.wrap-3{background: url(../img/wrap-3\ bg\ copy.webp) no-repeat center/cover; color: #fff;}
 .wrap-3 .about{text-align: center; }
 .wrap-3 i{font-size: 48px; color: #fff; margin-top: 150px; margin-bottom: 45px;}
 .wrap-3 hr{width: 85px; border: 3px solid #fff; margin-left: 90px; margin-bottom: 25px;}
@@ -105,7 +98,7 @@ margin-bottom: 40px;line-height: 25px;}
 .accordion .para {display: none; margin-bottom: 40px; padding-bottom: 30px; margin-top: 20px;}
 
 
-.wrap-5{background: url(img/wrap-5bg.webp) no-repeat center/cover; color: #fff;}
+.wrap-5{background: url(../img/wrap-5bg.webp) no-repeat center/cover; color: #fff;}
 .gallery{text-align: center;}
 .gallery h2{padding-top: 90px; font-size: 45px;}
 .gallery p{margin: 40px 150px; line-height: 30px; font-size: 16px; }
@@ -142,8 +135,8 @@ footer{background: #1a1a1a; color: #6f6f6e; line-height: 100px; text-align: cent
 nav ul li{margin-right: 10px;}
 .banner{width: 100%; height: 350px;}
 .gd h3 {font-size: 27px;margin-bottom: 10px;}
-}
-.wrap-3 hr {width: 87px; border: 3px solid #fff;margin-left: 63px; margin-bottom: 17px;}
+
+.wrap-3 hr {width: 80px; border: 3px solid #fff;margin-left: 63px; margin-bottom: 17px;}
 .wrap-3 i {font-size: 40px;color: #fff;margin-top: 50px;margin-bottom: 25px;}
 .about h3 {font-size: 23px;margin-bottom: 40px;}
 .patient img {margin-bottom: 25px;width: 100%;height: 215px;}
@@ -156,6 +149,7 @@ nav ul li{margin-right: 10px;}
 .wrap-6 p{margin-bottom: 15px;}
 .wrap-7 h4 {padding-top: 15px;font-size: 30px;}
 .wrap-7 .btn{margin-top: 12px; width: 140px; height: 35px; padding: 7px;}
+}
 
 @media screen and (max-width:980px){                     /* ipad mini air portrait */
 .col-t-1{ flex-basis: 8.33%;max-width: 8.33%; }
@@ -173,9 +167,7 @@ nav ul li{margin-right: 10px;}
 
 .banner p{font-size: 11px;}
 .banner h2{font-size: 30px;}
-/* .abs {position: absolute;bottom: 106px;left: 6px;font-size: 16px;} */
 .text {text-align: center;margin-top: 60px;}
- /* .abs{position: absolute;bottom: 172px;left: 5px;font-size: 18px;}  */
 .wrap-2 img {width: 280px;height: auto; margin-left: -20px; }
 .wrap-2 h2 {margin-top: 5px;margin-bottom: 20px;font-size: 35px; padding-top: 30px;}
 .wrap-3 hr{margin-left: 35px;}
