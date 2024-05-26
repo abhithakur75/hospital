@@ -74,14 +74,14 @@ else{hidden.style.display="flex";}})
 
 
 /*                                                            wrap-4 accordion        js               */ 
-let click =document.querySelectorAll(".accr");
+/* let click =document.querySelectorAll(".accr");
 let para =document.querySelectorAll(".para");
 click.addEventListener("click",function(){
 
     
-})
+}) */
 
-/* 
+
      $(function(){
    $(".accordion .flex").on("click",function(e){                  //.accordion .accr
 
@@ -100,4 +100,4 @@ click.addEventListener("click",function(){
            console.log(7);
        }
    });
-}); */
+}); 
